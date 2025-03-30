@@ -12,6 +12,7 @@ Nexus.AI is a state-of-the-art AI-powered chatbot 🤖 designed to deliver seaml
   - [Setup Instructions](#setup-instructions)
 - [🚀 Usage](#-usage)
 - [🎨 Unique Visual Experience](#-unique-visual-experience)
+- [📷 Screenshots](#-screenshots)
 - [📜 License](#-license)
 - [📬 Contact](#-contact)
 
@@ -42,19 +43,20 @@ Ensure you have Python 3.11+ installed on your system.
    ```sh
    git clone https://github.com/your-username/NexusAI.git
    cd NexusAI
-   
+   ```
 2. 🌍 Create a virtual environment:
    ```sh
    python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 3. 📦 Install dependencies:
    ```sh
    pip install -r requirements.txt
-
+   ```
 4. ▶️ Run the application:
    ```sh
    python app.py
+   ```
 
 ---
 
@@ -69,6 +71,13 @@ Nexus.AI brings an aesthetically pleasing experience with a dynamic animated bac
 
 ---
 
+## 📷 Screenshots
+Here are some visuals of Nexus.AI in action:
+
+![Nexus.AI Chat Interface](https://github.com/user-attachments/assets/5fe2cbff-f821-4ac7-8eb0-65035ad5059d)
+
+---
+
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
@@ -76,5 +85,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## 📬 Contact
 For any inquiries, reach out via email at [mohalkarbhagyashri961@gmail.com](mailto:mohalkarbhagyashri961@gmail.com).
-
-   
