@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus.AI - Intelligent Chatbot</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Background animation container -->
+    <div id="vanta-background"></div>
+    
+    <div class="container-fluid main-container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-6">
+                <!-- Logo and Header -->
+                <div class="text-center mb-4 logo-container">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="{{ url_for('static', filename='img/nexus_logo.png') }}" alt="Nexus.AI Logo" class="nexus-logo me-3">
+                        <h1 class="app-title mb-0">
+                            <span class="nexus-text">Nexus</span><span class="ai-text">.AI</span>
+                        </h1>
+                    </div>
+                    <p class="app-subtitle mt-2">Your Intelligent Conversation Partner</p>
+                </div>
+                
+                <!-- Chat Container -->
+                <div class="chat-container">
+                    <!-- Chat Messages Area -->
+                    <div class="messages-area" id="chat-messages">
+                        <!-- Bot welcome message will be added here by JS -->
+                    </div>
+                    
+                    <!-- Typing Indicator -->
+                    <div class="typing-indicator d-none" id="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+                    <!-- Input Area -->
+                    <div class="input-area">
+                        <div class="input-group">
+                            <input type="text" id="user-input" class="form-control" placeholder="Type your message here..." aria-label="User message">
+                            <button class="btn send-btn" type="button" id="send-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Footer -->
+                <div class="footer text-center mt-3">
+                    <p>Made with <span class="heart">❤️</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Error Toast -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="error-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-white">
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="error-message">
+                Something went wrong.
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <!-- Vanta.js Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
