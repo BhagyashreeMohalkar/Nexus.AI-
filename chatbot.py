@@ -146,7 +146,7 @@ def load_conversation_dataset():
     
     try:
         # Load dataset from CSV file
-        dataset_path = "attached_assets/Conversation.csv"
+        dataset_path = "C:/Users/bhagyashree/Downloads/NexusAIChat/NexusAIChat/attached_assets/Conversation.csv"
         if not os.path.exists(dataset_path):
             logger.error(f"Dataset file not found at path: {dataset_path}")
             raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
