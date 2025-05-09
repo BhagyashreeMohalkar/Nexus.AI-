@@ -1,4 +1,4 @@
-# 🤖 Nexus.AI - The Intelligent Chatbot
+# 🤖 AI-Powered-Chatbot-using-Linear-Algebra-NLP-Nexus.AI
 
 Nexus.AI is a state-of-the-art AI-powered chatbot 🤖 designed to deliver seamless and intelligent conversations 💬. Built with Flask 🔥 and Natural Language Processing (NLP) 🧠, it harnesses cutting-edge machine learning models 🤓 to enhance user interaction 👥 and automate responses efficiently ⚡. To elevate the user experience 🎯, Nexus.AI features a beautifully animated background of birds 🐦✨, creating a visually immersive environment 🌅 while chatting.
 
