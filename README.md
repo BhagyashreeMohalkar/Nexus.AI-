@@ -83,5 +83,5 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ---
 
-## 📬 Contact
-For any inquiries, reach out via email at [mohalkarbhagyashri961@gmail.com](mailto:mohalkarbhagyashri961@gmail.com).
+## 📬 Author 
+Bhagyashree Mohalkar | [mohalkarbhagyashri961@gmail.com](mailto:mohalkarbhagyashri961@gmail.com).
